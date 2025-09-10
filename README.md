@@ -1,9 +1,7 @@
-# Open WebUI ↔ LangGraph Pipe (Human-in-the-Loop)
-
+# Open WebUI ↔ LangGraph Pipe 
 
 [![Open WebUI](https://img.shields.io/badge/Open%20WebUI-v0.6.25-blue)](https://docs.openwebui.com/)
 [![LangGraph](https://img.shields.io/badge/LangGraph%20SDK-v0.2.6-blue)](https://docs.langchain.com/oss/python/langgraph/overview)
-
 
 📖 If you haven't already, check out the detailed Medium article explaining this integration: [Read the article](https://pessini.medium.com/from-open-webui-to-langgraph-building-a-human-in-the-loop-pipe-for-real-time-ai-control-26561cca9f9c)
 
@@ -11,7 +9,7 @@ This project demonstrates how to integrate [Open WebUI](https://github.com/open-
 Unlike basic integrations, this implementation includes **human-in-the-loop features** such as:
 
 - ✅ Real-time streaming of messages  
-- ✅ Handling agent interrupts and resuming with user input  
+- ✅ Handling agent interrupts and resuming with user input (**Human-in-the-Loop - HITL**)
 - ✅ Status events for better user feedback  
 - ✅ Optional debug logging and tool call visibility  
 
